@@ -1,9 +1,22 @@
 .App {
-  text-align: center;
+
 }
 
 header{
+  background-color: black;
+}
+
+.headerDiv{
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
 }

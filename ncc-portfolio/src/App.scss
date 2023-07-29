@@ -1,3 +1,5 @@
+$defaultWidth: 90%;
+
 .App {
   background-color: black;;
 }
@@ -6,7 +8,7 @@ header{
   background-color: rgb(12, 12, 12);
 
   .headerDiv{
-    width: 90%;
+    width: $defaultWidth;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -28,7 +30,7 @@ main {
   color: white;
 
   .div-main {
-    width: 90%;
+    width: $defaultWidth;
     height: 100%;
     margin: auto;
     display: flex;
@@ -46,6 +48,10 @@ main {
     .right {
       h2, h3, h4 {
         opacity: 0.8;
+      }
+
+      h1 {
+        opacity: 0.9;
       }
 
       .email, .phone {
@@ -67,4 +73,21 @@ main {
   }
 }
 
+
+section {
+  color: white;
+  width: $defaultWidth;
+  margin: auto;
+  min-height: 50vh;
+  
+
+  h2 {
+    width: fit-content;
+    margin: auto;
+    box-shadow: 0 0 5px white;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 5px;
+  }
+}
 

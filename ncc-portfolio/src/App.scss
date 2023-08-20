@@ -48,7 +48,6 @@ main {
     justify-content: center;
     align-items: center;
     gap: 2em; 
-    //flex-direction: column;
     position: relative;
 
     .profile-photo{
@@ -79,7 +78,7 @@ main {
         }
 
         img:hover {
-          box-shadow: 0 0 1px 2px rgb(255, 255, 255);
+          box-shadow: 0 0 1px 2px rgb(158, 155, 155);
         }
       }
     }
@@ -100,20 +99,24 @@ main {
   }
 }
 
-
 section {
   width: $defaultWidth;
+  height: fit-content;
   margin: auto;
-  min-height: 50vh;
-  
+  padding: 50px 0;
 
   h2 {
     width: fit-content;
-    margin: auto;
+    margin: 4% auto;
     box-shadow: 0 0 5px rgb(97, 97, 97);
     text-align: center;
     padding: 15px 30px;
     border-radius: 5px;
+  }
+
+  div{
+    width: fit-content;
+    margin: auto;
   }
 }
 

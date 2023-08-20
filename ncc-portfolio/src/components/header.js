@@ -4,7 +4,7 @@ export default function header() {
   return (
     <header>
       <div className='headerDiv'>
-        <h1>Logo</h1>
+        <h2>Portfolio NCC</h2>
         <nav>
           <a href="/">Home</a>
           <a href="/about">About</a>

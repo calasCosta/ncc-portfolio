@@ -2,6 +2,8 @@ import React from 'react'
 import profile from '../images/profile.jpg';
 import emailIcon from '../images/emailIcon.png';
 import phoneIcon from '../images/phoneIcon.png';
+import downArrow from '../images/downArrow.png';
+import linkedInIcon from '../images/linkedInIcon.png';
 
 export default function HeroArea() {
   return (
@@ -15,13 +17,19 @@ export default function HeroArea() {
                 <h1 className='h1-main'> I'm a software engineer </h1>
                 <h3 className='h3-main'> I enjoy to code and learning new things </h3>   
                 <h4 className='h4-main'> Feel free to contact me </h4>
-                <a href='mailto:noamicafft@gmail.com' className='email'> 
+
+                <a href='mailto:noamicafft@gmail.com' className='email contact'> 
                     <img className='email-icon' src={emailIcon} alt='email-icon' />
                 </a>       
-                <a href='tel:+5511999999999' className='phone'>
+                <a href='tel:+5511999999999' className='phone contact'>
                     <img className='phone-icon' src={phoneIcon} alt='phone-icon' />
-                </a>      
+                </a>   
+                <a href='https://www.linkedin.com/in/noami-costa-912a8518a/' target='blank' className='linkedIn contact'>
+                    <img className='linkedIn-icon' src={linkedInIcon} alt='linkedIn-icon' />
+                </a>  
             </div>
+
+            <img className='down-arrown' src={downArrow} alt='downArrow-icon' />
         </div>
     </main>
   )

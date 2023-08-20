@@ -1,43 +1,55 @@
 $defaultWidth: 90%;
 
 .App {
-  background-color: black;;
+  background-color: rgb(255, 255, 255);;
 }
 
 header{
-  background-color: rgb(12, 12, 12);
-
+  height: 10vh;
+  
   .headerDiv{
+    height: inherit;
     width: $defaultWidth;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+
+    h2{
+      opacity: 0.8;
+    }
   }
 
   nav a{
-    color: white;
+    color: black;
     text-decoration: none;
     margin-left: 30px;
+    padding: 5px;
+  }
+
+  nav a:hover {
+    box-shadow: 0 0 3px 0 black;
+    
+    border-radius: 5px;
   }
 }
 
 main {
   width: 100%;
   height: 90vh;
-  background-color: rgba(0, 0, 0, 0.98);
-  color: white;
+  background-color: rgba(234, 234, 234, 0.601);
+
 
   .div-main {
     width: $defaultWidth;
-    height: 100%;
+    height: 90vh;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2em; 
     //flex-direction: column;
+    position: relative;
 
     .profile-photo{
       width:  300px;
@@ -47,27 +59,42 @@ main {
     
     .right {
       h2, h3, h4 {
-        opacity: 0.8;
+        opacity: 0.6;
       }
 
       h1 {
         opacity: 0.9;
       }
 
-      .email, .phone {
+      .contact{
         margin-right: 8%;
 
         img {
           width: 40px;
           height: 40px;
-          box-shadow: 0 0 1px 2px rgb(60, 60, 60);
+          box-shadow: 0 0 1px 2px rgb(221, 221, 221);
           border-radius: 10px;
           padding: 4px;
+          color: black;
         }
 
         img:hover {
-          box-shadow: 0 0 1px 2px rgb(215, 205, 205);
+          box-shadow: 0 0 1px 2px rgb(255, 255, 255);
         }
+      }
+    }
+
+    .down-arrown{
+      position: absolute;
+      bottom: 80px;
+      animation-name: down-arrown;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes down-arrown {
+      50% {
+        bottom: 40px;
       }
     }
   }
@@ -75,7 +102,6 @@ main {
 
 
 section {
-  color: white;
   width: $defaultWidth;
   margin: auto;
   min-height: 50vh;
@@ -84,7 +110,7 @@ section {
   h2 {
     width: fit-content;
     margin: auto;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px rgb(97, 97, 97);
     text-align: center;
     padding: 15px 30px;
     border-radius: 5px;

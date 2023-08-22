@@ -9,7 +9,7 @@ const dataSet = [
     },
     {
         title: "Database Complements Course",
-        description: `which aims to familiarize with the administration of relational 
+        description: `Aims to familiarize with the administration of relational 
         databases using SQLServer, through the implementation of a new system for grouping schools named "Agrupamento STB".
         One of the measures adopted by the group is to develop a new information system that allows it to manage, in an integrated way,
         the entire process of launching grades of the different schools in the grouping, as well as allowing students and guardians to
@@ -35,7 +35,7 @@ const dataSet = [
     },
     {
         title: "Cucumber + Selenium + Java + Maven",
-        description: `the objective of this task was to acquire knowledge concerning the performance of automated tests of 
+        description: `The objective of this task was to acquire knowledge concerning the performance of automated tests of 
         web applications, through the search and implementation of solutions for several possible scenarios while using a website.`,
     },
     {

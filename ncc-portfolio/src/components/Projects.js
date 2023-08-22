@@ -5,7 +5,7 @@ export default function Projects() {
     <section>
       <h2>Projects</h2>
 
-      <div>
+      <div >
         <p> <span>Web Programming</span>  – The main objective of this project was to develop a Full-Stack
             web solution that would allow the creation of a website with information about 
             video games and a forum on the subject, using HTML, CSS, JavaScript, Node.js/Express.js and MySQL.
@@ -31,8 +31,12 @@ export default function Projects() {
         </p>
         
         <p> <span>Mobile Computing </span>  - This project aimed to create a mobile app to help prevent forgetting disease (Alzheimer) through a memory match game. 
-                  Two implementations were made for this application, Android Studio (Java) and React Native versions.
-        </p>
+                  Two implementations were made for this application, Android Studio (Java) and React Native versions.</p>
+
+        <p> <span>Cucumber + Selenium + Java + Maven </span> - the objective of this task was to acquire knowledge concerning the performance of automated tests of 
+                  web applications, through the search and implementation of solutions for several possible scenarios while using a website. </p>
+
+        <p> <span>EngWithYTV (Final Bachelor Project)</span> - This project aims to create a fullstack web application that allows the user to study English through YouTube videos.</p>
 
       </div>
     </section>

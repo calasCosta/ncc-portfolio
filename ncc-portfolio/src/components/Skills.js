@@ -14,10 +14,10 @@ import githubIcon from '../images/githubIcon.png';
 
 function Skill(props){
   return (
-    <div style={{textAlign: "center", display:"inline-block", margin:"4%"}}>
+    <article style={{textAlign: "center", display:"inline-block", margin:"4%"}}>
       <img src={props.img} alt={props.name} className="skill-icon" />
       <p className={props.className}> {props.name} </p>
-    </div>
+    </article>
   );
 }
 

@@ -28,7 +28,7 @@ export default function Projects() {
     <section>
       <h2>Projects</h2>
 
-      <div className="projectsDiv">
+      <div className="projectsDiv divInsideSection">
       {ds.map((p)=>
           <Project 
                 title={p.title} 

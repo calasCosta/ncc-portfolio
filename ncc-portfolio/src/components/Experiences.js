@@ -4,7 +4,7 @@ import React from 'react';
 
 function ExperienceArticle(props){
     return (
-      <article>
+      <article className="articleExperience">
         <p className="experience">{props.experience}</p>
       </article>
     );

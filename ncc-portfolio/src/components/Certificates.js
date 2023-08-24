@@ -6,12 +6,7 @@ import completeWebDev from "../images/certificates/certificate_completeWebDev.pn
 
 function Certificate(props){
   return(
-    <img 
-      src={props.src} 
-      width={400} 
-      height={300}
-      className='certificate' 
-    />
+    <img src={props.src}  className='certificate' />
   )
 }
 
@@ -21,7 +16,7 @@ export default function Certificates() {
     <section>
       <h2>Certificates</h2>
 
-      <div className='certificatesDiv'>
+      <div className='certificatesDiv divInsideSection'>
         <Certificate src={javaProgramming} />
         <Certificate src={javaScript} />
         <Certificate src={responsiveWebDesign} />

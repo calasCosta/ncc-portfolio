@@ -11,6 +11,7 @@ import ejsIcon from '../images/ejsIcon.png';
 import expressIcon from '../images/express-jsIcon.png';
 import gitIcon from '../images/gitIcon.png';
 import githubIcon from '../images/githubIcon.png';
+import jdbcIcon from '../images/jdbcIcon.png';
 
 function Skill(props){
   return (
@@ -25,7 +26,7 @@ export default function Skills() {
   return (
     <section>
       <h2>Skills</h2>
-      <div style={{textAlign: 'center', width: "35%"}}>
+      <div className='divInsideSection' style={{textAlign: 'center'}}>
         <Skill  className="skill" name="Java" img={javaIcon} />
         <Skill  className="skill" name="JavaScript" img={javascriptIcon} />
         <Skill  className="skill" name="HTML" img={htmlIcon} />
@@ -38,7 +39,7 @@ export default function Skills() {
         <Skill  className="skill" name="Express.js" img={expressIcon} />
         <Skill  className="skill" name="Git" img={gitIcon} />
         <Skill  className="skill" name="GitHub" img={githubIcon} />
-        <Skill  className="skill" name="JDBC" img={javaIcon} />
+        <Skill  className="skill" name="JDBC" img={jdbcIcon} />
       </div>
     </section>
   )

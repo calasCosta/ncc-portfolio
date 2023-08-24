@@ -91,11 +91,13 @@ main {
       animation-name: down-arrown;
       animation-duration: 4s;
       animation-iteration-count: infinite;
+      opacity: 0.4;
     }
 
     @keyframes down-arrown {
       50% {
         bottom: 40px;
+        opacity: 0.8;
       }
     }
   }
@@ -110,12 +112,10 @@ section {
   h2 {
     width: fit-content;
     margin: 2% auto 4% auto;
-    padding: 15px 30px;
-    border-radius: 5px;
   }
 
   div{
-    width: 70%;
+    width: 75%;
     margin: auto;
     text-align: left;
   }
@@ -124,24 +124,27 @@ section {
     text-align: center;
 
     article{
-      display: inline-block;
       max-width: 300px;
-      height: 15vh;
-      padding: 2%;
-      margin: 0.2%;
+      height: 12vh;
+      display: inline-block;
+      padding: 10px;
+      margin: 2%;
       vertical-align: top;
-    }
-  }
+      box-shadow: 0 0 5px 0 rgb(235, 235, 235);
+      border-radius: $borderForArticles;
+      position:relative;
 
-  .experience {
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 5px 0 rgb(235, 235, 235);
-    border-radius: $borderForArticles;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
+      p {
+        max-width: 300px;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        text-align: left;
+      }
+
+    }
   }
 
   .projectsDiv{
@@ -155,7 +158,7 @@ section {
       border-radius: 0 20px;
       margin: 2%; 
       position: relative;
-      padding: 2%;
+      padding: 10px;
     }
 
     .seeMore{
@@ -176,13 +179,15 @@ section {
     text-align: center;
 
     .certificate {
+      width:300px; 
+      height:230px;
       margin: 2%; 
       box-shadow: 0 0 5px 0 rgb(219, 219, 219);
       border-radius: 10px;
     }
   }
 
-  .experience:hover, .project:hover, .certificate:hover{
+  .articleExperience:hover, .project:hover, .certificate:hover{
     transition: 0.6s;
     box-shadow: 0 0 0 6px rgba(3, 115, 138, 0.623);
   }
@@ -204,7 +209,6 @@ footer{
 
 @media only screen and (max-width: 600px) {
   main {
-
     .div-main {
       flex-direction: column;
 
@@ -230,19 +234,26 @@ footer{
 
       .down-arrown{
         bottom: 40px;
-        opacity: 0.4;
       }
   
       @keyframes down-arrown {
         50% {
           bottom: 10px;
-          opacity: 0.8;
         }
       }
     }
-
-    
-
- 
   }
+
+  section{
+    .divInsideSection{
+      width: 100%;
+
+      .certificate {
+        width: 300px;
+        height: 250px;
+        padding: 10px;
+      }
+    }
+  }
+  
 }

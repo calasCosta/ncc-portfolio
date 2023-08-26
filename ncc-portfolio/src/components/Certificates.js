@@ -6,7 +6,9 @@ import completeWebDev from "../images/certificates/certificate_completeWebDev.pn
 
 function Certificate(props){
   return(
-    <img src={props.src}  className='certificate' />
+    <a href={props.src} target='blank'>
+      <img src={props.src}  className='certificate' />
+    </a>
   )
 }
 

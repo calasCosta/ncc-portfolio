@@ -5,6 +5,7 @@ import phoneIcon from '../images/phoneIcon.png';
 import downArrow from '../images/downArrow.png';
 import linkedInIcon from '../images/linkedInIcon.png';
 import cvIcon from '../images/cv.png';
+import cvNoamiCosta from "../components/CV_NoamiCosta.pdf";
 
 export default function HeroArea() {
   return (
@@ -28,7 +29,7 @@ export default function HeroArea() {
                 <a href='https://www.linkedin.com/in/noami-costa-912a8518a/' target='blank' className='linkedIn contact'>
                     <img className='linkedIn-icon' src={linkedInIcon} alt='linkedIn-icon' />
                 </a>  
-                <a href="./resume.pdf" target="_blank" className='cvIn contact'> 
+                <a href={cvNoamiCosta} target="_blank" className='cvIn contact' download={"CV_NoamiCosta"}> 
                     <img src={cvIcon} alt="resume"/>
                 </a>
             </div>

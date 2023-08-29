@@ -13,9 +13,9 @@ function ExperienceArticle(props){
 export default function Experience() {
 
   return (
-    <section className='experienceSection'>
+    <section className='experienceSection' id="experiences">
       <h2>Experiences</h2>
-      <div className="experiencesDiv"> 
+      <div className="experiencesDiv" > 
 
         <ExperienceArticle experience="Former Chairman of the Board of Directors in the government organization Children’s Parliament of Guinea-Bissau. (2014-2016)" />
         <ExperienceArticle experience= "One Semester of Participation in the Erasmus+ Exchange in Poland." />

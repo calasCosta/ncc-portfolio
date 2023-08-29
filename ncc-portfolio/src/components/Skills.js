@@ -24,7 +24,7 @@ function Skill(props){
 
 export default function Skills() {
   return (
-    <section>
+    <section id="skills">
       <h2>Skills</h2>
       <div className='divInsideSection' style={{textAlign: 'center'}}>
         <Skill  className="skill" name="Java" img={javaIcon} />

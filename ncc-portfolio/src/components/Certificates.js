@@ -15,7 +15,7 @@ function Certificate(props){
 
 export default function Certificates() {
   return (
-    <section>
+    <section id="certificates">
       <h2>Certificates</h2>
 
       <div className='certificatesDiv divInsideSection'>

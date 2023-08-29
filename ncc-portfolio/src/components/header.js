@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function header() {
+export default function header(props) {
   return (
-    <header>
+    <header style={{backgroundColor:`${props.backgroundColor}`}}>
       <div className='headerDiv'>
         <h2>Portfolio NCC</h2>
         <nav>

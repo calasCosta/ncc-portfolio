@@ -1,24 +1,17 @@
-
+import React from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'; 
 import './App.scss';
-import Header from './components/Header';
-import HeroArea from './components/HeroArea';
-import Experiences from './components/Experiences';
-import Projects from './components/Projects';
-import Certificates from './components/Certificates';
-import Skills from './components/Skills';
-import Footer from './components/Footer';
+import Home from './pages/Home';
+import Project from './pages/Project';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <HeroArea />
-      <Experiences />
-      <Skills />
-      <Projects />
-      <Certificates />
-      <Footer />
-    </div>
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/project/:index/:title" element={<Project />}/>
+        </Routes>
+    </BrowserRouter>
   );
 }
 

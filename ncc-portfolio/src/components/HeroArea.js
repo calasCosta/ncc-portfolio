@@ -29,7 +29,7 @@ export default function HeroArea() {
                 <a href='https://www.linkedin.com/in/noami-costa-912a8518a/' target='blank' className='linkedIn contact'>
                     <img className='linkedIn-icon' src={linkedInIcon} alt='linkedIn-icon' />
                 </a>  
-                <a href={cvNoamiCosta} target="_blank" className='cvIn contact' download={"CV_NoamiCosta"}> 
+                <a href={cvNoamiCosta} target="_blank" rel="noreferrer" className='cvIn contact' download={"CV_NoamiCosta"}> 
                     <img src={cvIcon} alt="resume"/>
                 </a>
             </div>

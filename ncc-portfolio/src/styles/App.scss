@@ -3,34 +3,6 @@ $borderForArticles: 0 20px;
 $backgroundColor: rgba(83, 183, 203, 0.214);
 $mouseHoverColor: rgba(83, 183, 203, 0.214);
 
-header{
-  height: 10vh;
-  
-  .headerDiv{
-    height: inherit;
-    width: $defaultWidth;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    h2{
-      opacity: 0.8;
-    }
-  }
-
-  nav a{
-    color: black;
-    text-decoration: none;
-    margin-left: 30px;
-    padding: 5px;
-  }
-
-  nav a:hover {
-    box-shadow: 0 0 3px 0 black;
-    border-radius: 5px;
-  }
-}
 
 main {
   width: 100%;
@@ -232,13 +204,11 @@ footer{
 }
 
 //
-
 @media only screen and (max-width: 600px) {
   main {
     .div-main {
       flex-direction: column;
 
-  
       .right{
         h2, h3, h4 {
           font-size: medium;
@@ -248,7 +218,6 @@ footer{
           font-size: larger;
           
         }
-  
   
         .contact {
           img {

@@ -6,7 +6,7 @@ import Project from './pages/Project';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={ "/"}>
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/project/:index/:title" element={<Project />}/>

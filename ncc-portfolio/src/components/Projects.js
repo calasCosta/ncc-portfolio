@@ -27,7 +27,7 @@ export default function Projects() {
 
   const ds = dataSet;
   return (
-    <section id="projects">
+    <section id="projectsDiv">
       <h2>Projects</h2>
 
       <div className="projectsDiv divInsideSection">

@@ -6,7 +6,7 @@ import Project from './pages/Project';
 
 function App() {
   return (
-    <HashRouter basename={"/"}>
+    <HashRouter >
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/ncc-portfolio/project/:index/:title" element={<Project />}/>

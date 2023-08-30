@@ -1,5 +1,6 @@
 import React from 'react'
 import dataSet from './ProjectDataSet';
+import { NavLink } from 'react-router-dom';
 
 
 function Project(props){
@@ -16,7 +17,10 @@ function Project(props){
       }
       {
         (description.length > 200) &&
-          <a href={`/ncc-portfolio/project/${props.index}/${props.title}`} target='blank'  className="seeMore">see more</a>
+          <NavLink to={`/ncc-portfolio/project/${props.index}/${props.title}`} target='blank'  className="seeMore"
+          >
+            see more
+          </NavLink>
       }
       
     </div>

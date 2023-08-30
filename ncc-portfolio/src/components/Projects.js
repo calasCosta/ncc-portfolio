@@ -16,7 +16,7 @@ function Project(props){
       }
       {
         (description.length > 200) &&
-          <a href={`/project/${props.index}/${props.title}`} target='blank'  className="seeMore">see more</a>
+          <a href={`/ncc-portfolio/project/${props.index}/${props.title}`} target='blank'  className="seeMore">see more</a>
       }
       
     </div>
@@ -27,7 +27,7 @@ export default function Projects() {
 
   const ds = dataSet;
   return (
-    <section id="projectsDiv">
+    <section id="projects">
       <h2>Projects</h2>
 
       <div className="projectsDiv divInsideSection">

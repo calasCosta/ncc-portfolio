@@ -4,7 +4,7 @@ import dataSet from '../components/ProjectDataSet';
 
 export default function Project() {
   const pathname = window.location.pathname;
-  const index = pathname.split("/")[2];
+  const index = pathname.split("/")[3];
   const projectObj = dataSet[index];
 
   const goBack = () => {

@@ -8,7 +8,7 @@ export default function Project() {
   const projectObj = dataSet[index];
 
   const goBack = () => {
-    window.location.href = "http://localhost:3000/"
+    window.location.href = window.location.origin;
   }
 
   return (

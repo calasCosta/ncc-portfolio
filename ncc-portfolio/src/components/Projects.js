@@ -1,6 +1,6 @@
 import React from 'react'
 import dataSet from './ProjectDataSet';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 function Project(props){
@@ -17,10 +17,10 @@ function Project(props){
       }
       {
         (description.length > 200) &&
-          <NavLink to={`/ncc-portfolio/project/${props.index}/${props.title}`} target='blank'  className="seeMore"
+          <Link to={`/project/${props.index}/${props.title}`} target='blank'  className="seeMore"
           >
             see more
-          </NavLink>
+          </Link>
       }
       
     </div>

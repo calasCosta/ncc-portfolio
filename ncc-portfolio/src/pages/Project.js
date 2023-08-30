@@ -3,8 +3,8 @@ import Footer from '../components/Footer';
 import dataSet from '../components/ProjectDataSet';
 
 export default function Project() {
-  const pathname = window.location.pathname;
-  const index = pathname.split("/")[3];
+  const pathname = window.location.hash;
+  const index = pathname.split("/")[2];
   const projectObj = dataSet[index];
 
   const goBack = () => {

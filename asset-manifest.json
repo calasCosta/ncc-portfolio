@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ncc-portfolio/static/css/main.bcdd2399.css",
+    "main.css": "/ncc-portfolio/static/css/main.2750a135.css",
     "main.js": "/ncc-portfolio/static/js/main.0227789d.js",
     "static/media/certificate_completeWebDev.png": "/ncc-portfolio/static/media/certificate_completeWebDev.c910f07e55f00b5b06ff.png",
     "static/media/certificate_javaProgramming.png": "/ncc-portfolio/static/media/certificate_javaProgramming.d776c830db5b8f248ca9.png",
@@ -8,11 +8,11 @@
     "static/media/certificate_responsiveWebDesign.jpg": "/ncc-portfolio/static/media/certificate_responsiveWebDesign.0ed4015a38579adbe910.jpg",
     "static/media/certificate_javaScript.png": "/ncc-portfolio/static/media/certificate_javaScript.e64013abc10e61d2d1b6.png",
     "index.html": "/ncc-portfolio/index.html",
-    "main.bcdd2399.css.map": "/ncc-portfolio/static/css/main.bcdd2399.css.map",
+    "main.2750a135.css.map": "/ncc-portfolio/static/css/main.2750a135.css.map",
     "main.0227789d.js.map": "/ncc-portfolio/static/js/main.0227789d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcdd2399.css",
+    "static/css/main.2750a135.css",
     "static/js/main.0227789d.js"
   ]
 }

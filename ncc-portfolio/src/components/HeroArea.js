@@ -16,14 +16,14 @@ export default function HeroArea() {
             </div>
             <div className='right'>
                 <h3 className='h3-main'> Hello, my name is Noami Costa </h3>
-                <h1 className='h1-main'> I'm a software engineer </h1>
+                <h1 className='h1-main'> I'm a Software Engineer </h1>
                 <h3 className='h3-main'> I enjoy to code and learning new things </h3>   
                 <h4 className='h4-main'> Feel free to contact me </h4>
 
                 <a href='mailto:noamicafft@gmail.com' className='email contact'> 
                     <img className='email-icon' src={emailIcon} alt='email-icon' />
                 </a>       
-                <a href='tel:+5511999999999' className='phone contact'>
+                <a href='tel:+351933320337' className='phone contact'>
                     <img className='phone-icon' src={phoneIcon} alt='phone-icon' />
                 </a>   
                 <a href='https://www.linkedin.com/in/noami-costa-912a8518a/' target='blank' className='linkedIn contact'>

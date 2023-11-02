@@ -17,8 +17,7 @@ function Project(props){
       }
       {
         (description.length > 200) &&
-          <Link to={`/project/${props.index}/${props.title}`}  className="seeMore"
-          >
+          <Link to={`/project/${props.index}/${props.title}`}  className="seeMore">
             see more
           </Link>
       }

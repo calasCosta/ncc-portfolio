@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ncc-portfolio/static/css/main.793ecf71.css",
-    "main.js": "/ncc-portfolio/static/js/main.c705a4ab.js",
+    "main.css": "/ncc-portfolio/static/css/main.48c5df5c.css",
+    "main.js": "/ncc-portfolio/static/js/main.dd72c98c.js",
     "static/media/certificate_completeWebDev.png": "/ncc-portfolio/static/media/certificate_completeWebDev.c910f07e55f00b5b06ff.png",
     "static/media/certificate_javaProgramming.png": "/ncc-portfolio/static/media/certificate_javaProgramming.d776c830db5b8f248ca9.png",
+    "static/media/certificate_devOps.png": "/ncc-portfolio/static/media/certificate_devOps.91f356c2dba055c2c57e.png",
     "static/media/CV_NoamiCosta.pdf": "/ncc-portfolio/static/media/CV_NoamiCosta.25187e8478def3bcf9ae.pdf",
     "static/media/certificate_responsiveWebDesign.jpg": "/ncc-portfolio/static/media/certificate_responsiveWebDesign.0ed4015a38579adbe910.jpg",
     "static/media/certificate_javaScript.png": "/ncc-portfolio/static/media/certificate_javaScript.e64013abc10e61d2d1b6.png",
     "index.html": "/ncc-portfolio/index.html",
-    "main.793ecf71.css.map": "/ncc-portfolio/static/css/main.793ecf71.css.map",
-    "main.c705a4ab.js.map": "/ncc-portfolio/static/js/main.c705a4ab.js.map"
+    "main.48c5df5c.css.map": "/ncc-portfolio/static/css/main.48c5df5c.css.map",
+    "main.dd72c98c.js.map": "/ncc-portfolio/static/js/main.dd72c98c.js.map"
   },
   "entrypoints": [
-    "static/css/main.793ecf71.css",
-    "static/js/main.c705a4ab.js"
+    "static/css/main.48c5df5c.css",
+    "static/js/main.dd72c98c.js"
   ]
 }

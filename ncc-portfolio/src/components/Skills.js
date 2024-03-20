@@ -12,6 +12,7 @@ import expressIcon from '../images/express-jsIcon.png';
 import gitIcon from '../images/gitIcon.png';
 import githubIcon from '../images/githubIcon.png';
 import jdbcIcon from '../images/jdbcIcon.png';
+import figmaIcon from '../images/figmaIcon.png';
 
 function Skill(props){
   return (
@@ -40,6 +41,7 @@ export default function Skills() {
         <Skill  className="skill" name="Git" img={gitIcon} />
         <Skill  className="skill" name="GitHub" img={githubIcon} />
         <Skill  className="skill" name="JDBC" img={jdbcIcon} />
+        <Skill  className="skill" name="Figma" img={figmaIcon} />
       </div>
     </section>
   )

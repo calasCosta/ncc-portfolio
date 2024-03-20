@@ -3,6 +3,7 @@ import javaProgramming from "../images/certificates/certificate_javaProgramming.
 import javaScript from "../images/certificates/certificate_javaScript.png"
 import responsiveWebDesign from "../images/certificates/certificate_responsiveWebDesign.jpg"
 import completeWebDev from "../images/certificates/certificate_completeWebDev.png"
+import devOps from "../images/certificates/certificate_devOps.png"
 
 function Certificate(props){
   return(
@@ -19,6 +20,7 @@ export default function Certificates() {
       <h2>Certificates</h2>
 
       <div className='certificatesDiv divInsideSection'>
+        <Certificate src={devOps} />
         <Certificate src={javaProgramming} />
         <Certificate src={javaScript} />
         <Certificate src={responsiveWebDesign} />

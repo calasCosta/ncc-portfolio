@@ -1,7 +1,7 @@
 $defaultWidth: 90%;
 $borderForArticles: 0 20px;
 $backgroundColor: rgba(83, 183, 203, 0.214);
-$mouseHoverColor: rgba(83, 183, 203, 0.214);
+$mouseHoverColor: rgba(32, 73, 82, 0.214);
 
 /* width */
 ::-webkit-scrollbar {
@@ -153,7 +153,8 @@ section {
       border-radius: 0 20px;
       margin: 2%; 
       position: relative;
-      padding: 10px;
+      padding: 15px;
+      line-height: 1.5;
     }
 
     .seeMore{
@@ -186,19 +187,8 @@ section {
 
   .articleExperience:hover, .project:hover, .certificate:hover{
     transition: 0.6s;
-    box-shadow: 10px 10px 0 0 $mouseHoverColor;
-  }
-}
-
-footer{
-  height: 20vh;
-  background-color: $backgroundColor;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-
-  div{
-    text-align: center;
+    box-shadow: 0 0 5px 0 rgb(219, 219, 219),
+                10px 10px 0 0 $mouseHoverColor;
   }
 }
 
@@ -214,8 +204,8 @@ footer{
     opacity: 0.7;
   }
 
-  .goBack:hover{
-    cursor:pointer;
+  .goBack:hover {
+    cursor: pointer;
     opacity: 0.5;
   }
 
@@ -226,6 +216,19 @@ footer{
     h1{
       text-align: center;
     }
+  }
+}
+
+//----- footer
+footer{
+  height: 20vh;
+  background-color: $backgroundColor;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  div{
+    text-align: center;
   }
 }
 

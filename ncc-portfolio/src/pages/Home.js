@@ -4,7 +4,7 @@ import HeroArea from '../components/HeroArea';
 import Experiences from '../components/Experiences';
 import Projects from '../components/Projects';
 import Certificates from '../components/Certificates';
-import Skills from '../components/Skills';
+import Skills from '../components/skills/Skills';
 import Footer from '../components/Footer';
 
 

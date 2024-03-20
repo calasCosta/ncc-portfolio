@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Project(props){
   const description = props.description;
+  const techSize = props.techSize;
 
   return(
     <div className="project">
@@ -15,8 +16,9 @@ function Project(props){
         <p> {description.slice(0,200)}...</p> :
         <p>{description}</p>
       }
+
       {
-        (description.length > 200) &&
+        (description.length > 200 || techSize > 0) &&
           <Link to={`/project/${props.index}/${props.title}`}  className="seeMore">
             see more
           </Link>
@@ -39,6 +41,7 @@ export default function Projects() {
                 index={ds.indexOf(p)}
                 title={p.title} 
                 description={p.description}
+                techSize={p.techs && p.techs.length}
           /> 
       )}      
       </div>

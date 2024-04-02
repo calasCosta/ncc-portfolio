@@ -18,7 +18,7 @@ export default function Experience() {
       <div className="experiencesDiv" > 
 
         <ExperienceArticle 
-          experience={"Advisor for Programming project at Polytechnic Hight School SOS - Bissau/Guinea-Bissau"} 
+          experience={"Advisor for Programming Projects at Polytechnic Hight School SOS - Bissau/Guinea-Bissau"} 
           duration="(03/2023 – Present)"
         />
 

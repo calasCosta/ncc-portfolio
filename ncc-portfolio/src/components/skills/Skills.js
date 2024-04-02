@@ -9,7 +9,9 @@ export default function Skills() {
       <div className='divInsideSection' style={{textAlign: 'center'}}>
 
         {
-          Object.keys(tecnologies).map((t, index) =>
+          Object.keys(tecnologies)
+          .filter(t => tecnologies[t].name !== "Android Studio" && tecnologies[t].name !== "Firebase")
+          .map((t, index) =>
             <Skill 
               key={index}  
               className="skill" 

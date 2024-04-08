@@ -3,8 +3,8 @@ import tecnologies from "./Techs";
 const dataSet = [
     {
         title : "Web Programming",
-        description : `The main objective of this project was to develop a Full-Stack
-        web solution that would allow the creation of a website with information about 
+        description : `Development of a Full-Stack
+        web solution that allows the creation of a website with information about 
         video games and a forum on the subject.`,
 
         techs : [
@@ -48,7 +48,7 @@ const dataSet = [
     },
     {
         title: "Mobile Computing",
-        description: `This project aimed to create a mobile app to help prevent forgetting disease (Alzheimer) through a memory match game. 
+        description: `Creation of a mobile app to help prevent forgetting disease (Alzheimer) through a memory match game. 
         Two implementations were made for this application, Android Studio (Java) and React Native versions.`,
 
         techs:[

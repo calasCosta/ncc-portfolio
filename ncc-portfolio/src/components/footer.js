@@ -6,8 +6,8 @@ export default function Footer() {
     <footer>
 
       <div>
-        <p>All right reserved</p>
-        <p>Created with ❤️ by Noami Costa (using react.js) </p>
+        <p>All right reserved ({new Date().getFullYear()})</p>
+        <p>Created by Noami Costa (using react.js) </p>
       </div>
     </footer>
   )

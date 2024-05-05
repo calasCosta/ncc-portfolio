@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import dataSet from '../components/ProjectDataSet';
 import { useNavigate } from 'react-router-dom';
 import Skill from '../components/skills/Skill';
+import emptyYet from '../images/emptyYet.svg';
 
 export default function Project() {
   const pathname = window.location.hash;
@@ -16,8 +17,9 @@ export default function Project() {
 
   return (
     <div className='projectPageDiv'>
-      <p onClick={goBack} className='goBack'> {`<<`} </p>
-      <div >
+      
+      <div className='left-div'>
+        <p onClick={goBack} className='goBack'> {`<<`} </p>
         <h1>{projectObj.title}</h1>
         <p>{projectObj.description}</p>
 
@@ -28,10 +30,14 @@ export default function Project() {
               <Skill key={index}  className="skill" name={t.name} img={t.icon} />
             )
           }
-        
 
       </div>
-      {<Footer />}
+      
+      <div className='right-div'>
+          <img src={emptyYet} alt='emptyYet'/>
+      </div>
+
+      
     </div>
   )
 }

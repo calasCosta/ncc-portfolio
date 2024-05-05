@@ -5,7 +5,9 @@ import React from 'react';
 function ExperienceArticle(props){
     return (
       <article className="articleExperience">
-        <p className="experience">{props.experience} <br/> {props.duration}</p>
+        <div>
+            <p className="experience">{props.experience} <br/> {props.duration}</p>
+        </div>
       </article>
     );
 }

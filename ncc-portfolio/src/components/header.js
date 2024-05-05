@@ -14,11 +14,11 @@ export default function header(props) {
 
   return (
     <header style={{backgroundColor:`${props.backgroundColor}`}}>
-      <div className='headerDiv'>
+      <div className='header-div'>
         <h2>Portfolio NCC</h2>
 
         <input type="checkbox" id="check"/>
-        <label for="check" className="checkButton">
+        <label for="check" className="check-button">
           <div></div>
           <div></div>
           <div></div>

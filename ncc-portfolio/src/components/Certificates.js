@@ -19,7 +19,7 @@ export default function Certificates() {
     <section id="certificates">
       <h2>Certificates</h2>
 
-      <div className='certificatesDiv divInsideSection'>
+      <div className='certificates-div div-inside-section'>
         <Certificate src={devOps} />
         <Certificate src={javaProgramming} />
         <Certificate src={javaScript} />

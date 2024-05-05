@@ -35,7 +35,7 @@ export default function Projects() {
     <section id="projects">
       <h2>Projects</h2>
 
-      <div className="projectsDiv divInsideSection">
+      <div className="projects-div div-inside-section">
         {ds.map((p)=>
             <Project 
                   index={ds.indexOf(p)}

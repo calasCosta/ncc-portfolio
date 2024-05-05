@@ -4,10 +4,8 @@ import React from 'react';
 
 function ExperienceArticle(props){
     return (
-      <article className="articleExperience">
-        <div>
-            <p className="experience">{props.experience} <br/> {props.duration}</p>
-        </div>
+      <article className="article-experience">
+          <p className="experience">{props.experience} <br/> {props.duration}</p>
       </article>
     );
 }
@@ -15,9 +13,9 @@ function ExperienceArticle(props){
 export default function Experience() {
 
   return (
-    <section className='experienceSection' id="experiences">
+    <section className='experience-section' id="experiences">
       <h2>Experiences</h2>
-      <div className="experiencesDiv" > 
+      <div className="experiences-div" > 
 
         <ExperienceArticle 
           experience={"Advisor for Programming Projects at Polytechnic Hight School SOS - Bissau/Guinea-Bissau"} 
@@ -39,10 +37,6 @@ export default function Experience() {
           experience="Former Chairman of the Board of Directors in the government organization Children’s Parliament of Guinea-Bissau." 
           duration="(2014-2016)"
         />
-        
-        
-        
-        
       </div>
     </section>
   )

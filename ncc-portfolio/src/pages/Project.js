@@ -16,10 +16,10 @@ export default function Project() {
   }
 
   return (
-    <div className='projectPageDiv'>
+    <div className='project-page-div'>
       
       <div className='left-div'>
-        <p onClick={goBack} className='goBack'> {`<<`} </p>
+        <p onClick={goBack} className='go-back'> {`<<`} </p>
         <h1>{projectObj.title}</h1>
         <p>{projectObj.description}</p>
 

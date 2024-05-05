@@ -36,14 +36,14 @@ export default function Projects() {
       <h2>Projects</h2>
 
       <div className="projectsDiv divInsideSection">
-      {ds.map((p)=>
-          <Project 
-                index={ds.indexOf(p)}
-                title={p.title} 
-                description={p.description}
-                techSize={p.techs && p.techs.length}
-          /> 
-      )}      
+        {ds.map((p)=>
+            <Project 
+                  index={ds.indexOf(p)}
+                  title={p.title} 
+                  description={p.description}
+                  techSize={p.techs && p.techs.length}
+            /> 
+        )}      
       </div>
     </section>
   )

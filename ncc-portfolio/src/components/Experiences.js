@@ -27,7 +27,9 @@ export default function Experience() {
           duration="(06/2022 – 12/2022)"
         />
 
-        <ExperienceArticle experience="Development of a full-Stack webapp for a private startup as a freelancer."/>
+        <ExperienceArticle experience="Development of a full-Stack webapp for a private startup as a freelancer."
+          duration="(04/2021 – 05/2021)"
+        />
 
         <ExperienceArticle experience= "One Semester of Participation in the Erasmus+ Exchange in Poland." />
 

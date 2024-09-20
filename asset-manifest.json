@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/ncc-portfolio/static/css/main.9f510905.css",
-    "main.js": "/ncc-portfolio/static/js/main.e7575e38.js",
+    "main.js": "/ncc-portfolio/static/js/main.c6a181f8.js",
     "static/media/certificate_completeWebDev.png": "/ncc-portfolio/static/media/certificate_completeWebDev.c910f07e55f00b5b06ff.png",
     "static/media/certificate_javaProgramming.png": "/ncc-portfolio/static/media/certificate_javaProgramming.d776c830db5b8f248ca9.png",
     "static/media/certificate_devOps.png": "/ncc-portfolio/static/media/certificate_devOps.91f356c2dba055c2c57e.png",
-    "static/media/CV_NoamiCosta.pdf": "/ncc-portfolio/static/media/CV_NoamiCosta.7c647c3f96e827083dc5.pdf",
+    "static/media/CV_NoamiCosta.pdf": "/ncc-portfolio/static/media/CV_NoamiCosta.0962b69ae233e652dbeb.pdf",
     "static/media/certificate_responsiveWebDesign.jpg": "/ncc-portfolio/static/media/certificate_responsiveWebDesign.0ed4015a38579adbe910.jpg",
     "static/media/certificate_javaScript.png": "/ncc-portfolio/static/media/certificate_javaScript.e64013abc10e61d2d1b6.png",
     "static/media/emptyYet.svg": "/ncc-portfolio/static/media/emptyYet.810627350e9ed2c1d963d2fe1dfac495.svg",
     "index.html": "/ncc-portfolio/index.html",
     "main.9f510905.css.map": "/ncc-portfolio/static/css/main.9f510905.css.map",
-    "main.e7575e38.js.map": "/ncc-portfolio/static/js/main.e7575e38.js.map"
+    "main.c6a181f8.js.map": "/ncc-portfolio/static/js/main.c6a181f8.js.map"
   },
   "entrypoints": [
     "static/css/main.9f510905.css",
-    "static/js/main.e7575e38.js"
+    "static/js/main.c6a181f8.js"
   ]
 }

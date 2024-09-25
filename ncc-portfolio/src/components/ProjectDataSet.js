@@ -19,15 +19,10 @@ const dataSet = [
     },
     {
         title: "Database Complements Course",
-        description: `Aims to familiarize with the administration of relational 
-        databases using SQLServer, through the implementation of a new system for grouping schools named "Agrupamento STB".
-        One of the measures adopted by the group is to develop a new information system that allows it to manage, in an integrated way,
-        the entire process of launching grades of the different schools in the grouping, as well as allowing students and guardians to
-        have access to this information.
-        With the implementation of the new system, it became necessary to model and integrate, in a new Database, the pieces of information
-        that were exported from existing systems and that up to now supported the various schools in the cluster. The main concepts used
-        were Programming (Stored Procedures, Functions, Triggers), Metadata, Indexes, Backup and Recovery, Access levels, Encryption, and
-        transaction control.`,
+        description: `Implementation of a new system of Polytechnic High School SOS - Bissau/Guinea-Bissau 
+                    that allows guardians to control their children’s academic activities, in which it was 
+                    necessary to model and integrate, in a new Database, the fragments of information 
+                    exported from a poorly modelled database.`,
 
         techs : [
             tecnologies.msqlserver
@@ -61,8 +56,8 @@ const dataSet = [
     },
     {
         title: "Web App Performance Tests",
-        description: `The objective of this task was to acquire knowledge concerning the performance of automated tests of 
-        web applications, through the search and implementation of solutions for several possible scenarios while using a website.`,
+        description: `Capgemini’s project aimed at the performance of automated tests of web applications, 
+                    through the search and implementation of solutions for several possible scenarios while using a website.`,
         techs : [
             tecnologies.java,
             tecnologies.selenium,
@@ -71,12 +66,11 @@ const dataSet = [
     },
     {
         title: "EngWithYTV (Final Bachelor Project)",
-        description: `Considering the high demand for the English language, as it is a predominant language 
-                    both in the labor market and in various spheres of our daily lives, and because many 
-                    language students resort to YouTube videos to improve their level, this project aims 
-                    to allows the user to study English (it can be extended to several languages in the future) 
-                    through YouTube videos. This project is aimed at users with a beginner and intermediate 
-                    level of English, for fun, it can be used by advanced users.`,
+        description: `A Full-stack web application that helps users improve their English through YouTube videos. 
+                    This app allows users to watch YouTube videos, see their transcript, click on a word/expression 
+                    and see its meaning and add it to a recognition level (known, to know, unknown), move word/expression 
+                    between recognition levels, debate about a video with embed ChatGPT API, see the expression of the day, 
+                    connect and chat with other users.`,
         techs : [
             tecnologies.html,
             tecnologies.css,

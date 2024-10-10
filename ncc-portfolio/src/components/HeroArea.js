@@ -14,7 +14,7 @@ export default function HeroArea() {
         <div className='div-main'>
             <div className='div-inside'>
                 <h2 className='h2-name'> I'm Noami Costa </h2>
-                <h1 className='h1-main'> Graduate Software Engineer </h1> 
+                <h1 className='h1-main'> Software Engineering master's student </h1> 
                 <h2 className='h2-whoami'>
                     I'm a passionate and dedicated fullstack software developer based in Lisbon.
                     

@@ -17,9 +17,14 @@ export default function Experience() {
       <h2>Experiences</h2>
       <div className="experiences-div" > 
 
+        <ExperienceArticle
+          experience={"Sales Advisor at H&M – London"}
+          duration="(07/2024 – 07/2024)"
+        />
+
         <ExperienceArticle 
           experience={"Advisor for Programming Projects at Polytechnic Hight School SOS - Bissau/Guinea-Bissau"} 
-          duration="(03/2023 – Present)"
+          duration="(03/2023 – 07/2024))"
         />
 
         <ExperienceArticle 

@@ -16,7 +16,7 @@ export default function HeroArea() {
                 <h2 className='h2-name'> I'm Noami Costa </h2>
                 <h1 className='h1-main'> Graduate Software Engineer </h1> 
                 <h2 className='h2-whoami'>
-                    I'm a passionate and dedicated fullstack software developer based in London.
+                    I'm a passionate and dedicated fullstack software developer based in Lisbon.
                     
                 </h2>
 
